@@ -8053,7 +8053,7 @@
             i = void 0,
             s = void 0,
             a = document.createElement("div");
-        for (a.setAttribute("id", "wobble"), a.setAttribute("class", "btn italic"), a.innerText = "Cat Bounce!", document.body.appendChild(a), o = a.firstChild.nodeValue; a.childNodes.length;) a.removeChild(a.childNodes[0]);
+        for (a.setAttribute("id", "wobble"), a.setAttribute("class", "btn italic"), a.innerText = "Cat for Bong!", document.body.appendChild(a), o = a.firstChild.nodeValue; a.childNodes.length;) a.removeChild(a.childNodes[0]);
         for (i = 0; i < o.length; i++)(s = document.createElement("span")).setAttribute("id", "wobb" + i), s.style.position = "relative", s.appendChild(document.createTextNode(o.charAt(i))), a.appendChild(s);
         setInterval(function() {
             for (var e = 0; e < o.length; e++) document.getElementById("wobb" + e).style.top = Math.round(3 * Math.sin(e + r)) + "px";
